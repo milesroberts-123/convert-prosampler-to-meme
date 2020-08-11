@@ -10,3 +10,7 @@ This script has two required arguments -i and -o. -i denotes the name of the inp
 `./prosampler_to_meme.bash -i prosampler_example.meme -o prosampler_example.out`
 
 Will convert the prosampler_example.meme file in this repository into MEME motif format and save the results to prosampler_example.out. This file can then be directrly uploaded to any online [MEME suite tool](http://meme-suite.org/index.html) or input into the command line versions of MEME suite tools.
+
+## DEPENDENICES
+
+None! You only need to be able to run the `sed` command to use this script. I tested this script using the 2019-11-09 version of ProSampler and MEME v5.1.1 on an Ubuntu terminal. 
