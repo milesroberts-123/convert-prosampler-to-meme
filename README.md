@@ -5,11 +5,11 @@ Use regular expressions to convert the motifs output by ProSampler to MEME motif
 
 ## USAGE
 
-This script has two required arguments -i and -o. -i denotes the name of the input file containing the pseudo-MEME formatted motifs given by ProSampler (which ProSampler automatically gives a .meme extension too) and -o is denote the name you want for the output file. For example:
+This script has two required arguments -i and -o. -i denotes the name of the input file containing the pseudo-MEME formatted motifs given by ProSampler (which ProSampler automatically gives a .meme extension too) and -o denotes the name you want for the output file. For example:
 
 `./prosampler_to_meme.bash -i prosampler_example.meme -o prosampler_example.out`
 
-Will convert the prosampler_example.meme file in this repository into MEME motif format and save the results to prosampler_example.out. This file can then be directrly uploaded to any online [MEME suite tool](http://meme-suite.org/index.html) or input into the command line versions of MEME suite tools.
+Will convert the motifs in the prosampler_example.meme file in this repository into MEME motif format and save the results to prosampler_example.out. This file can then be directly uploaded to any online [MEME suite tool](http://meme-suite.org/index.html) or input into the command line versions of MEME suite tools.
 
 ## DEPENDENICES
 
